@@ -1,4 +1,5 @@
 import atm from "./assets/smartOPT-one-touch 1.png";
+import atmpro from "./assets/atm-pro.png";
 import invoice from "./assets/Vector.png";
 import contactless from "./assets/contactlesspayment-svgrepo-com 1.png";
 import thumb from "./assets/touch--id_1_.png";
@@ -86,6 +87,126 @@ function App() {
             </div>
           </div>
           <img src={atm} className="App-logo" alt="logo" />
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <div className="heading">
+            Compare models<br></br>smartOPT
+          </div>
+          <div style={{ display: "flex" }}>
+            <div className="leftImage">
+              <div className="subHeading-text">Pro</div>
+              <img src={atmpro} className="App-logo" alt="logo" />
+            </div>
+            <div className="rightImage">
+              <div className="subHeading-text">
+                <b>OneTouch</b>
+              </div>
+              <img src={atmpro} className="App-logo" alt="logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <div className="heading">Characteristics</div>
+          <div className="flex">
+            <div>
+              <div className="subHeading-text">Pro</div>
+              <img src={atmpro} alt="logo" />
+            </div>
+            <div className="table-div">
+              <table>
+                <tr>
+                  <td style={{width:"25%"}}>✓</td>
+                  <td style={{width:"50%"}}>12″ flat touch screen</td>
+                  <td style={{width:"25%"}}>✓</td>
+                </tr>
+                <tr>
+                  <td>✓</td>
+                  <td>Voice guidance</td>
+                  <td>✓</td>
+                </tr>
+
+                <tr>
+                  <td>✓</td>
+                  <td>Printer</td>
+                  <td>✓</td>
+                </tr>
+
+                <tr>
+                  <td>✓</td>
+                  <td>Banknote acceptor</td>
+                  <td>✓</td>
+                </tr>
+
+                <tr>
+                  <td>✓</td>
+                  <td>Microphone</td>
+                  <td>✓</td>
+                </tr>
+
+                <tr>
+                  <td>✓</td>
+                  <td>Presence sensor</td>
+                  <td>✓</td>
+                </tr>
+
+                <tr>
+                  <td>✓</td>
+                  <td>QR code reader</td>
+                  <td>✓</td>
+                </tr>
+
+                <tr>
+                  <td>✓</td>
+                  <td>Cards and debit cards</td>
+                  <td>✓</td>
+                </tr>
+                <tr>
+                  <td>✓</td>
+                  <td>Pinpad Ingenico</td>
+                  <td>✓</td>
+                </tr>
+
+                <tr>
+                  <td>✓</td>
+                  <td>Contactless antenna</td>
+                  <td>✓</td>
+                </tr>
+              </table>
+              <table style={{ marginTop: 40 }}>
+                <tr>
+                  <td style={{width:"25%"}}></td>
+                  <td style={{width:"50%"}}>Contactless One Touch</td>
+                  <td style={{width:"25%"}}>✓</td>
+                </tr>
+
+                <tr>
+                  <td ></td>
+                  <td> Fingerprint sensor</td>
+                  <td>✓</td>
+                </tr>
+                <tr>
+                  <td ></td>
+                  <td>New “keyless” cover</td>
+                  <td>✓</td>
+                </tr>
+              </table>
+              <div className="btn">
+                <div>Request commercial information</div>
+              </div>
+            </div>
+            <div>
+              <div className="subHeading-text">
+                <b>OneTouch</b>
+              </div>
+              <img src={atmpro} alt="logo" />
+            </div>
+          </div>
         </div>
       </section>
     </div>
